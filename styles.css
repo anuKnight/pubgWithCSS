@@ -1,0 +1,100 @@
+*{
+	padding: 0px;
+    box-sizing: border-box;
+	margin: 0px;
+}
+
+.z {
+    animation: colorchange 1s infinite;
+}
+@keyframes colorchange{
+    0%{color: red;}
+    25%{color: pink;}
+    50%{color: palevioletred;}
+    100%{color: orangered;}
+}
+.i{
+	
+	font-size: 20px;
+	  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: black;
+	 text-transform: uppercase;
+}
+
+.g{
+    width: 1000px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    color: white;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+}
+.d{
+   display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s ,color 0.2;
+}
+.f{
+    background-color: transparent;
+    color: aqua;
+    margin-right: 15px;
+    border: 1px solid white; 
+    
+}
+.e{
+    background-color: transparent;
+    color: aqua;
+    margin-right: 15px;
+    border: 1px solid white; 
+    
+}
+.d:hover{
+    background-color: black;
+}
+.h{
+	background-color: transparent;
+    color: aqua;
+    margin-right: 15px;
+    border: 1px solid white; 
+    
+}
+.f{
+    background-color: transparent;
+    color: aqua;
+    margin-right: 15px;
+    border: 1px solid white; 
+    
+}
+footer {
+  font-family: 'Merienda', cursive;
+  background: #7682cc;
+  text-align: center;
+ 
+  width: 1700px;
+    position: absolute;
+    top: 96.25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  padding: 15px 100px;
+}
+
+footer p {
+  padding-bottom: 2px;
+}
